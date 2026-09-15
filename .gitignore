@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/faces/*
+!data/faces/.gitkeep
+data/encodings/*
+!data/encodings/.gitkeep
+database/*.db
+exports/*.csv
+logs/*.log
+models/*.onnx
